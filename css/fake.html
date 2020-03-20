@@ -1,0 +1,46 @@
+function FunctionLname(e) {
+  	let Lnameregex = /^[a-zA-Z]+$/;
+  if (Lnameregex.test(Fname.value))
+  	alert("Name must be alphabet only");
+  return true;
+  else{
+  	return false;
+  }
+
+  }
+  	  	let Emailregex = /^[a-zA-Z0-9_]+@[a-zA-Z]\.[a-zA-Z]{3,6}$/;
+
+  	  	if (Emailregex.test(Email.value)== true) {
+  	  		return true;
+  	  	}
+  	  else{
+  	  	alert("your email ia not valid")
+  	  } 
+  	  return false		
+  	  	}
+  	  	
+  	  	function FunctionPhonumb(e) {
+
+  	  		 let PhoneNumregex = /^(+234)-[1-9]{10}$/;
+  	  		 if (PhoneNumregex.test(PhoneNum.value)==true) {
+  	  		 	return true;	
+  	  		 }
+  	  		
+  	  	    else{
+  	  	    	 alert(" your Phone Number must be of the form +234-xxxxxxxxxx");
+  	  	    	 return false;
+  	  	    }
+  	   	 	 function FunctionPassword(e) {
+  	   	 	 let Passwordregex =/^[a-zA-Z]\w{3,10}$/;
+  	   	 	 if (Passwordregex.test(Password.value)==true) {
+  	   	 	 	return true;
+  	   	 	 }
+              else {
+              	alert("your passport must consist of Uppercase,
+              	 lowercase, numbers and spacial character")
+              	 return false;
+              }
+  	   	 	 	
+  	   	 	 }
+                    
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+
+<section class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<img src="images/banner1.jpg" class="img-fluid" id="img1"> 
+		</div>
+	</div>
+</section>
+
+<section class="container">
+	<div class="jumbotron">
+		<h1>Student Regsitration Form</h1>
+		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>	
+</section>
+
+
+
+<section class="container">	
+	<form class="form">
+		<div class="form-row form-group">
+			<div class="col-md-6">
+				<label class="form-label">FIRST NAME</label>
+				<input type="text" placeholder="Enter your First Name" class="form-control" id="FName">
+				<span class="FirstNameinfo"></span>
+			</div>
+
+			<div class="col-md-6">
+				<label class="form-label">LAST NAME</label>
+				<input type="text" placeholder="Enter your Last Name" class="form-control" id="LName">
+			</div>
+		</div>
+
+		
+
+		<div class="form-row form-group">
+			<div class="col-md-6">
+				<label class="sel1 form-label">GENDER</label>
+				<select class="form-control" id="Gender">
+					<option>Male</option>
+					<option>Female</option>
+				</select>
+			</div>
+
+			<div class="col-md-6">
+				<label class="form-label">DATE OF BIRTH</label>
+				<input type="number" class="form-control" placeholder="Select Your dat of Birth" id="DOB" >
+			</div>
+		</div>
+
+		
+        <div class="form-row form-group">
+			<div class="col-md-6">
+				<label class="form-label">EMAIL</label>
+				<input type="email" class="form-control" placeholder="Enter your email address" id="txtEmail">
+				<span id="emailInfo"></span>
+			</div>
+
+			<div class="col-md-6">
+				<label class="form-label">PHONE NUMBER</label>
+				<input type="text" class="form-control" placeholder="Enter Your Phone number" id="PhoneNum">
+			</div>
+		</div>
+		
+		<div class="form-row form-group">
+			<div class="col-md-6">
+				<label class="form-label">PASSWORD</label>
+				<input type="Password" class="form-control" placeholder="Enter Your password" id="Password"><span class="PasswordInfo"></span>
+			</div>
+
+						<div class="col-md-6">
+				<label class="form-label">CONFIRM PASSWORD</label>
+				<input type="password" class="form-control" placeholder="Enter Your password" id="Password"><span class="ConfirmPasswordInfo"></span>
+			</div>
+		</div>
+
+		<div class="form-row form-group">
+			<div class="col-md-12">
+				<input type="button" value="Submit" id="btn" class="btn btn-danger btn-block form-control">
+			</div>
+		</div>
+	</form>
+</section>
+
+<script src="./js/StudentPortal.js"></script>
+</body>
+</html>
